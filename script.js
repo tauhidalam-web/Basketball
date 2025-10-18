@@ -1,5 +1,5 @@
-let homeTeam = "Home";
-let guestTeam = "Away";
+let homeTeam = "Unicorn";
+let guestTeam = "Alien";
 document.getElementById("home-team").textContent = homeTeam;
 document.getElementById("guest-team").textContent = guestTeam;
 
