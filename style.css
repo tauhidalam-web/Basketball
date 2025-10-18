@@ -1,0 +1,61 @@
+@font-face {
+    font-family: digiNum;
+    src: url("Font/digital-7.ttf");
+}
+body{
+    font-family: digiNum;
+    font-size: 30px;
+    color: whitesmoke;
+    margin: 0px;
+    text-align: center;
+    background: linear-gradient(black,grey);
+    height: 100vmax;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(19, 19, 78);
+    width: 600px;
+    margin: 5px auto;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.teamContainer{
+
+    margin: 0px auto;
+}
+#home-team, #guest-team{
+    margin: 10px auto;
+}
+
+.score{
+    margin: 0px auto;
+    padding: 10px;
+    width: 100px;
+    color: rgb(209, 63, 63);
+    background-color: black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+button{
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    background: transparent;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 2px;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.288);
+    color: white;
+}

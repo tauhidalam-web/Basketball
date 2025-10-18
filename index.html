@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="container">
+            <div class="teamContainer">
+                <h1 id="home-team">Home</h1>
+                <h1 class="score" id="home-score">0</h1>
+                <!-- <div class="scoreContainer"></div> -->
+                <div class="scoreIncrement">
+                    <button onclick="homeAdd(1)">+1</button>
+                    <button onclick="homeAdd(2)">+2</button>
+                    <button onclick="homeAdd(3)">+3</button>
+                    <!-- <br>
+                    <button id="home-foul" onclick="foul()" >Foul</button> -->
+                </div>
+            </div>
+            <div class="teamContainer">
+                <h1 id="guest-team">Guest</h1>
+                <!-- <div class="scoreContainer"></div> -->
+                <h1 id="guest-score" class="score">0</h1>
+                <div class="scoreIncrement">
+                    <button onclick="guestAdd(1)">+1</button>
+                    <button onclick="guestAdd(2)">+2</button>
+                    <button onclick="guestAdd(3)">+3</button>
+                    <!-- <br>
+                    <button id="guest-foul" onclick="foul()" >Foul</button> -->
+                </div>
+            </div>
+        </div>
+        <div class="functionbtn">
+            <button id="new-game" onclick="newGame()">New Game</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
